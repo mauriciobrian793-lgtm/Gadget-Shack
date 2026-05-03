@@ -487,7 +487,7 @@ async def promote_test(
     )
 
     await interaction.response.send_message(
-        "✅ Promotion sent successfully.",
+        "✅ Promotion sent successfully .",
         ephemeral=True
     )
     
