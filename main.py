@@ -4,7 +4,12 @@ from discord import app_commands
 
 # ================= CONFIG =================
 
-TOKEN = "MTUwMDIzODQ1MjkzODI0NDMzOA.G3ZWJ6.kXRHs5T9y15Bh2N60XzV0qVdpWSnsv9hu_Amc4"
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TOKEN        = os.getenv("TOKEN")
 
 GUILD_ID = 1496982899725959328
 
